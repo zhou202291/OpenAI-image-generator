@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+
+# 构建产物（启动.bat 会自动生成，不需要提交）
+dist/
+
+# TypeScript 增量编译缓存
+*.tsbuildinfo
+
+# 运行时配置（保存位置等，因机器而异）
+.config.json
+.port
+
+# 生成的图片和对话记录
+# 如果你想把自己的作品一起传到 GitHub，把下面两行删掉或改成注释
+image/
+data/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
